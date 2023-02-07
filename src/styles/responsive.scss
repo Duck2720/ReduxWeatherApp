@@ -1,0 +1,143 @@
+@media all and (max-width: 1170px) {
+}
+@media all and (max-width: 1024px) {
+  .App {
+    .homepage {
+      .left {
+        .search {
+          &-inner {
+            width: 200px;
+          }
+        }
+        .currentWeather {
+          &-inner {
+            .cityName {
+              font-size: 1.5rem;
+            }
+            .temperature {
+              font-size: 1.5rem;
+            }
+            .img-banner {
+              span {
+                font-size: 15px;
+                left: 5%;
+              }
+            }
+          }
+        }
+      }
+      .content {
+        .weatherDay {
+          &-inner {
+            .info {
+              width: 49%;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media all and (max-width: 768px) {
+  .App {
+    .homepage {
+      .left {
+        .search {
+          &-inner {
+            width: 150px;
+          }
+        }
+        .currentWeather {
+          &-inner {
+            .cityName {
+              font-size: 1.5rem;
+            }
+            .temperature {
+              font-size: 1.5rem;
+            }
+            .img-banner {
+              span {
+                font-size: 15px;
+                left: 5%;
+              }
+            }
+          }
+        }
+      }
+      .content {
+        .weatherDay {
+          &-inner {
+            .info {
+              width: 49%;
+              padding: 0;
+              .name {
+                font-size: 1rem;
+              }
+              .number {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        .weatherWeek {
+          &-inner {
+            .weatherWeek-item {
+              width: 49%;
+            }
+          }
+          .dayInfo-inner .dayInfo-left {
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .App {
+    .homepage {
+      display: block;
+      overflow: auto;
+      .left {
+        width: 100%;
+        .search {
+          &-inner {
+            width: 150px;
+          }
+        }
+      }
+      .content {
+        .weatherDay {
+          &-inner {
+            .info {
+              width: 99%;
+              padding: 0;
+              margin: 20px 0;
+              .name {
+                font-size: 1rem;
+              }
+              .number {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        .weatherWeek {
+          &-inner {
+            .weatherWeek-item {
+              width: 49%;
+            }
+          }
+          .dayInfo-inner .dayInfo-left {
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 375px) {
+}

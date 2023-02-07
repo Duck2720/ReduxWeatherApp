@@ -1,0 +1,44 @@
+.currentWeather {
+    padding: 0 20px 20px 20px;
+    .currentWeather-inner {
+        .temperature {
+            font-size: 2.5rem;
+            font-weight: 700;
+            padding-top: 5px;
+        }
+        .day {
+            padding-top: 5px;
+            font-size: 1.25rem;
+            .time {
+                font-size: 1.25rem;
+            }
+        }
+        .cityName {
+            padding-top: 5px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .clouds, .overcast {
+            padding-top: 5px;
+            color: #6c757d!important;
+            text-transform: capitalize!important;
+            font-size: 1rem;
+        }
+        
+        .img-banner {
+            position: relative;
+            img {   
+                width: 100%;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            .namecity-img {
+                position: absolute;
+                top: 38%;
+                left: 33%;
+                color: white;
+                font-size: 24px;
+            }
+        }
+    }
+}

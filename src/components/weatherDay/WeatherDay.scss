@@ -1,0 +1,66 @@
+.weatherDay {
+  height: 100%;
+  .weatherDay-inner {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    .info {
+      text-align: center;
+      padding: 10px 20px;
+      width: 25%;
+      margin: 10px;
+      background: white;
+      padding-top: 40px;
+      border-radius: 10px;
+      i {
+        color: #ffc107;
+        font-size: 40px;
+      }
+      .wind-icon {
+        color: aqua;
+        font-size: 50px;
+      }
+      .sun-icon {
+        color: #ffc107;
+        font-size: 50px;
+      }
+      .name {
+        color: #acafb1;
+        font-size: 1.25rem;
+        font-weight: normal;
+      }
+      .uv {
+        color: #ffc107 !important;
+        font-size: 40px;
+        padding-top: 10px;
+      }
+      .wind {
+        font-size: 40px;
+        color: rgba(13, 110, 253, 0.7686274509803922);
+        padding-top: 10px;
+      }
+      i {
+        padding-top: 20px;
+      }
+      .number {
+        color: #6c757d !important;
+        font-weight: 700;
+        font-size: 1.8rem;
+        padding-top: 10px;
+      }
+      .sunrise,
+      .sunset {
+        .icon {
+          font-size: 60px;
+          color: #ffc107;
+        }
+        display: flex;
+        justify-content: space-evenly;
+        i {
+        }
+        .number {
+        }
+      }
+    }
+  }
+}

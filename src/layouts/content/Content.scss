@@ -1,0 +1,35 @@
+.tab {
+  width: 75%;
+  flex-direction: row;
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+  background: transparent;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .tab-inner {
+      display: flex;
+      flex-direction: row;
+      ul {
+        display: flex;
+        flex-direction: row;
+        li {
+          font-weight: bold;
+          font-size: 1.25rem;
+          margin: 10px;
+          cursor: pointer;
+          a {
+            color: #6c757d !important;
+          }
+        }
+      }
+    }
+    img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+  }
+}
